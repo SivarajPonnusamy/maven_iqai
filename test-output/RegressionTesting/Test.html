@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 17 13:57:29 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>342 seconds (342110 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.myiqai.testCases.Add_users.addNewUser()'><b>addNewUser</b><br>Test class: com.myiqai.testCases.Add_users<br>Parameters: Test user, one, iqqiqi456@myiq.co</td>
+<td></td>
+<td>10</td>
+<td>com.myiqai.testCases.Add_users@a3d9978</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_users.addNewUser()'><b>addNewUser</b><br>Test class: com.myiqai.testCases.Add_users<br>Parameters: Test user, two, testuser267@myiq.kkrr</td>
+<td></td>
+<td>10</td>
+<td>com.myiqai.testCases.Add_users@a3d9978</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_users.addNewUser()'><b>addNewUser</b><br>Test class: com.myiqai.testCases.Add_users<br>Parameters: Test Three, three, testuserthree@myiq.rcbb</td>
+<td></td>
+<td>10</td>
+<td>com.myiqai.testCases.Add_users@a3d9978</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_users.add_newUsers()'><b>add_newUsers</b><br>Test class: com.myiqai.testCases.Add_users</td>
+<td></td>
+<td>7</td>
+<td>com.myiqai.testCases.Add_users@a3d9978</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_organisation.add_org()'><b>add_org</b><br>Test class: com.myiqai.testCases.Add_organisation</td>
+<td></td>
+<td>3</td>
+<td>com.myiqai.testCases.Add_organisation@61544ae6</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_organisation.add_organisation()'><b>add_organisation</b><br>Test class: com.myiqai.testCases.Add_organisation<br>Parameters: www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Update123 Sam pvt ltd, UP-12344, T-nagar, Chennai</td>
+<td></td>
+<td>23</td>
+<td>com.myiqai.testCases.Add_organisation@61544ae6</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_organisation.add_organisation()'><b>add_organisation</b><br>Test class: com.myiqai.testCases.Add_organisation<br>Parameters: www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Update123 Hari pvt ltd, UPH-1234, KK -nagar, chennai.</td>
+<td></td>
+<td>22</td>
+<td>com.myiqai.testCases.Add_organisation@61544ae6</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_organisation.add_organisation()'><b>add_organisation</b><br>Test class: com.myiqai.testCases.Add_organisation<br>Parameters: www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.com, Update123 Kavi pvt ltd, UPK-1234, KKt-nagar, chennai.</td>
+<td></td>
+<td>22</td>
+<td>com.myiqai.testCases.Add_organisation@61544ae6</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Add_organisation.add_organisation()'><b>add_organisation</b><br>Test class: com.myiqai.testCases.Add_organisation<br>Parameters: www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Updatemac123 pvt ltd, UPM-12314, Mac, chennai-13423</td>
+<td></td>
+<td>22</td>
+<td>com.myiqai.testCases.Add_organisation@61544ae6</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Role_Creation.roleCreation()'><b>roleCreation</b><br>Test class: com.myiqai.testCases.Role_Creation<br>Parameters: AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, exception, approval</td>
+<td></td>
+<td>9</td>
+<td>com.myiqai.testCases.Role_Creation@4b41dd5c</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Role_Creation.roleCreation()'><b>roleCreation</b><br>Test class: com.myiqai.testCases.Role_Creation<br>Parameters: AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone</td>
+<td></td>
+<td>11</td>
+<td>com.myiqai.testCases.Role_Creation@4b41dd5c</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Role_Creation.roleCreation()'><b>roleCreation</b><br>Test class: com.myiqai.testCases.Role_Creation<br>Parameters: AP Manager, Invoice- View, add,assign and approval</td>
+<td></td>
+<td>10</td>
+<td>com.myiqai.testCases.Role_Creation@4b41dd5c</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Role_Creation.roleCreation()'><b>roleCreation</b><br>Test class: com.myiqai.testCases.Role_Creation<br>Parameters: AR Manager, View reports page</td>
+<td></td>
+<td>10</td>
+<td>com.myiqai.testCases.Role_Creation@4b41dd5c</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Role_Creation.roleCreation()'><b>roleCreation</b><br>Test class: com.myiqai.testCases.Role_Creation<br>Parameters: IR Clerk, Task reports and invoice view </td>
+<td></td>
+<td>10</td>
+<td>com.myiqai.testCases.Role_Creation@4b41dd5c</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Role_Creation.role_creation()'><b>role_creation</b><br>Test class: com.myiqai.testCases.Role_Creation</td>
+<td></td>
+<td>1</td>
+<td>com.myiqai.testCases.Role_Creation@4b41dd5c</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Rule_master.rule_Mas()'><b>rule_Mas</b><br>Test class: com.myiqai.testCases.Rule_master</td>
+<td></td>
+<td>4</td>
+<td>com.myiqai.testCases.Rule_master@3b96c42e</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Rule_master.rule_master()'><b>rule_master</b><br>Test class: com.myiqai.testCases.Rule_master<br>Parameters: RuleWithcountry, Vendor Country, =, Abkhazia, </td>
+<td></td>
+<td>29</td>
+<td>com.myiqai.testCases.Rule_master@3b96c42e</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Rule_master.rule_master()'><b>rule_master</b><br>Test class: com.myiqai.testCases.Rule_master<br>Parameters: RuleWithVendorName, Vendor Name, Ends with, , </td>
+<td></td>
+<td>28</td>
+<td>com.myiqai.testCases.Rule_master@3b96c42e</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Rule_master.rule_master()'><b>rule_master</b><br>Test class: com.myiqai.testCases.Rule_master<br>Parameters: RuleWithcountry_1, Vendor Country, =, Algeria, </td>
+<td></td>
+<td>39</td>
+<td>com.myiqai.testCases.Rule_master@3b96c42e</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Rule_master.rule_master()'><b>rule_master</b><br>Test class: com.myiqai.testCases.Rule_master<br>Parameters: RuleWithRetentionAmount, Retention Amount, =, , </td>
+<td></td>
+<td>25</td>
+<td>com.myiqai.testCases.Rule_master@3b96c42e</td></tr>
+<tr>
+<td title='com.myiqai.testCases.Rule_master.rule_master()'><b>rule_master</b><br>Test class: com.myiqai.testCases.Rule_master<br>Parameters: , , , , </td>
+<td></td>
+<td>11</td>
+<td>com.myiqai.testCases.Rule_master@3b96c42e</td></tr>
+</table><p>
+</body>
+</html>

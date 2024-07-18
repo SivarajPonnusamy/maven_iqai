@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RegressionTesting" class="navigator-link">
+              <span class="suite-name border-passed">RegressionTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RegressionTesting" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RegressionTesting" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RegressionTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RegressionTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RegressionTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RegressionTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RegressionTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionTesting" class="hide-methods passed suite-RegressionTesting"> (hide)</a> <!-- hide-methods passed suite-RegressionTesting -->
+                      <a href="#" panel-name="suite-RegressionTesting" class="show-methods passed suite-RegressionTesting"> (show)</a> <!-- show-methods passed suite-RegressionTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_users" class="method navigator-link" hash-for-method="addNewUser(Test user, one, iqqiqi456@myiq.co)">addNewUser(Test user, one, iqqiqi456@myiq.co)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_users" class="method navigator-link" hash-for-method="addNewUser(Test Three, three, testuserthree@myiq.rcbb)">addNewUser(Test Three, three, testuserthree@myiq.rcbb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_users" class="method navigator-link" hash-for-method="addNewUser(Test user, two, testuser267@myiq.kkrr)">addNewUser(Test user, two, testuser267@myiq.kkrr)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_users" class="method navigator-link" hash-for-method="add_newUsers">add_newUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_organisation" class="method navigator-link" hash-for-method="add_org">add_org</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_organisation" class="method navigator-link" hash-for-method="add_organisation(www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Upd...)">add_organisation(www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Upd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_organisation" class="method navigator-link" hash-for-method="add_organisation(www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Upda...)">add_organisation(www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Upda...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_organisation" class="method navigator-link" hash-for-method="add_organisation(www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Upda...)">add_organisation(www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Upda...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Add_organisation" class="method navigator-link" hash-for-method="add_organisation(www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.co...)">add_organisation(www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Role_Creation" class="method navigator-link" hash-for-method="roleCreation(AP Manager, Invoice- View, add,assign and approval)">roleCreation(AP Manager, Invoice- View, add,assign and approval)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Role_Creation" class="method navigator-link" hash-for-method="roleCreation(AR Manager, View reports page)">roleCreation(AR Manager, View reports page)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Role_Creation" class="method navigator-link" hash-for-method="roleCreation(IR Clerk, Task reports and invoice view )">roleCreation(IR Clerk, Task reports and invoice view )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Role_Creation" class="method navigator-link" hash-for-method="roleCreation(AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, ex...)">roleCreation(AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, ex...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Role_Creation" class="method navigator-link" hash-for-method="roleCreation(AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone)">roleCreation(AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Role_Creation" class="method navigator-link" hash-for-method="role_creation">role_creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Rule_master" class="method navigator-link" hash-for-method="rule_Mas">rule_Mas</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Rule_master" class="method navigator-link" hash-for-method="rule_master(RuleWithcountry, Vendor Country, =, Abkhazia, )">rule_master(RuleWithcountry, Vendor Country, =, Abkhazia, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Rule_master" class="method navigator-link" hash-for-method="rule_master(RuleWithcountry_1, Vendor Country, =, Algeria, )">rule_master(RuleWithcountry_1, Vendor Country, =, Algeria, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Rule_master" class="method navigator-link" hash-for-method="rule_master(, , , , )">rule_master(, , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Rule_master" class="method navigator-link" hash-for-method="rule_master(RuleWithVendorName, Vendor Name, Ends with, , )">rule_master(RuleWithVendorName, Vendor Name, Ends with, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTesting" title="com.myiqai.testCases.Rule_master" class="method navigator-link" hash-for-method="rule_master(RuleWithRetentionAmount, Retention Amount, =, , )">rule_master(RuleWithRetentionAmount, Retention Amount, =, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionTesting" class="panel RegressionTesting">
+          <div class="suite-RegressionTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myiqai.testCases.Role_Creation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreation(AP Manager, Invoice- View, add,assign and approval)">
+                  </a> <!-- roleCreation(AP Manager, Invoice- View, add,assign and approval) -->
+                  <span class="method-name">roleCreation</span>
+                  <span class="parameters">(AP Manager, Invoice- View, add,assign and approval)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreation(AR Manager, View reports page)">
+                  </a> <!-- roleCreation(AR Manager, View reports page) -->
+                  <span class="method-name">roleCreation</span>
+                  <span class="parameters">(AR Manager, View reports page)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreation(IR Clerk, Task reports and invoice view )">
+                  </a> <!-- roleCreation(IR Clerk, Task reports and invoice view ) -->
+                  <span class="method-name">roleCreation</span>
+                  <span class="parameters">(IR Clerk, Task reports and invoice view )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreation(AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, ex...)">
+                  </a> <!-- roleCreation(AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, ex...) -->
+                  <span class="method-name">roleCreation</span>
+                  <span class="parameters">(AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, exception, approval)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreation(AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone)">
+                  </a> <!-- roleCreation(AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone) -->
+                  <span class="method-name">roleCreation</span>
+                  <span class="parameters">(AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="role_creation">
+                  </a> <!-- role_creation -->
+                  <span class="method-name">role_creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTesting-class-passed -->
+          <div class="suite-RegressionTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myiqai.testCases.Rule_master</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rule_Mas">
+                  </a> <!-- rule_Mas -->
+                  <span class="method-name">rule_Mas</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rule_master(RuleWithcountry, Vendor Country, =, Abkhazia, )">
+                  </a> <!-- rule_master(RuleWithcountry, Vendor Country, =, Abkhazia, ) -->
+                  <span class="method-name">rule_master</span>
+                  <span class="parameters">(RuleWithcountry, Vendor Country, =, Abkhazia, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rule_master(RuleWithcountry_1, Vendor Country, =, Algeria, )">
+                  </a> <!-- rule_master(RuleWithcountry_1, Vendor Country, =, Algeria, ) -->
+                  <span class="method-name">rule_master</span>
+                  <span class="parameters">(RuleWithcountry_1, Vendor Country, =, Algeria, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rule_master(, , , , )">
+                  </a> <!-- rule_master(, , , , ) -->
+                  <span class="method-name">rule_master</span>
+                  <span class="parameters">(, , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rule_master(RuleWithVendorName, Vendor Name, Ends with, , )">
+                  </a> <!-- rule_master(RuleWithVendorName, Vendor Name, Ends with, , ) -->
+                  <span class="method-name">rule_master</span>
+                  <span class="parameters">(RuleWithVendorName, Vendor Name, Ends with, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rule_master(RuleWithRetentionAmount, Retention Amount, =, , )">
+                  </a> <!-- rule_master(RuleWithRetentionAmount, Retention Amount, =, , ) -->
+                  <span class="method-name">rule_master</span>
+                  <span class="parameters">(RuleWithRetentionAmount, Retention Amount, =, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTesting-class-passed -->
+          <div class="suite-RegressionTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myiqai.testCases.Add_users</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUser(Test user, one, iqqiqi456@myiq.co)">
+                  </a> <!-- addNewUser(Test user, one, iqqiqi456@myiq.co) -->
+                  <span class="method-name">addNewUser</span>
+                  <span class="parameters">(Test user, one, iqqiqi456@myiq.co)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUser(Test Three, three, testuserthree@myiq.rcbb)">
+                  </a> <!-- addNewUser(Test Three, three, testuserthree@myiq.rcbb) -->
+                  <span class="method-name">addNewUser</span>
+                  <span class="parameters">(Test Three, three, testuserthree@myiq.rcbb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUser(Test user, two, testuser267@myiq.kkrr)">
+                  </a> <!-- addNewUser(Test user, two, testuser267@myiq.kkrr) -->
+                  <span class="method-name">addNewUser</span>
+                  <span class="parameters">(Test user, two, testuser267@myiq.kkrr)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_newUsers">
+                  </a> <!-- add_newUsers -->
+                  <span class="method-name">add_newUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTesting-class-passed -->
+          <div class="suite-RegressionTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myiqai.testCases.Add_organisation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_org">
+                  </a> <!-- add_org -->
+                  <span class="method-name">add_org</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_organisation(www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Upd...)">
+                  </a> <!-- add_organisation(www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Upd...) -->
+                  <span class="method-name">add_organisation</span>
+                  <span class="parameters">(www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Update123 Hari pvt ltd, UPH-1234, KK -nagar, chennai.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_organisation(www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Upda...)">
+                  </a> <!-- add_organisation(www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Upda...) -->
+                  <span class="method-name">add_organisation</span>
+                  <span class="parameters">(www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Updatemac123 pvt ltd, UPM-12314, Mac, chennai-13423)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_organisation(www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Upda...)">
+                  </a> <!-- add_organisation(www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Upda...) -->
+                  <span class="method-name">add_organisation</span>
+                  <span class="parameters">(www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Update123 Sam pvt ltd, UP-12344, T-nagar, Chennai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_organisation(www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.co...)">
+                  </a> <!-- add_organisation(www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.co...) -->
+                  <span class="method-name">add_organisation</span>
+                  <span class="parameters">(www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.com, Update123 Kavi pvt ltd, UPK-1234, KKt-nagar, chennai.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTesting-class-passed -->
+        </div> <!-- panel RegressionTesting -->
+        <div panel-name="test-xml-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/sivaraj/Automation/iquantm_product/myiqai/src/test/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RegressionTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.myiqai.base.Base_test&quot;/&gt;
+      &lt;class name=&quot;com.myiqai.testCases.Add_users&quot;/&gt;
+      &lt;class name=&quot;com.myiqai.testCases.Add_organisation&quot;/&gt;
+      &lt;class name=&quot;com.myiqai.testCases.Role_Creation&quot;/&gt;
+      &lt;class name=&quot;com.myiqai.testCases.Rule_master&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- RegressionTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionTesting');
+function tableData_RegressionTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'rule_master')
+data.setCell(0, 2, 'com.myiqai.testCases.Rule_master')
+data.setCell(0, 3, 39505);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'rule_master')
+data.setCell(1, 2, 'com.myiqai.testCases.Rule_master')
+data.setCell(1, 3, 29940);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'rule_master')
+data.setCell(2, 2, 'com.myiqai.testCases.Rule_master')
+data.setCell(2, 3, 28177);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'rule_master')
+data.setCell(3, 2, 'com.myiqai.testCases.Rule_master')
+data.setCell(3, 3, 25350);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'add_organisation')
+data.setCell(4, 2, 'com.myiqai.testCases.Add_organisation')
+data.setCell(4, 3, 23185);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'add_organisation')
+data.setCell(5, 2, 'com.myiqai.testCases.Add_organisation')
+data.setCell(5, 3, 22573);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'add_organisation')
+data.setCell(6, 2, 'com.myiqai.testCases.Add_organisation')
+data.setCell(6, 3, 22498);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'add_organisation')
+data.setCell(7, 2, 'com.myiqai.testCases.Add_organisation')
+data.setCell(7, 3, 22486);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'rule_master')
+data.setCell(8, 2, 'com.myiqai.testCases.Rule_master')
+data.setCell(8, 3, 11690);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'roleCreation')
+data.setCell(9, 2, 'com.myiqai.testCases.Role_Creation')
+data.setCell(9, 3, 11380);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'roleCreation')
+data.setCell(10, 2, 'com.myiqai.testCases.Role_Creation')
+data.setCell(10, 3, 10934);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'roleCreation')
+data.setCell(11, 2, 'com.myiqai.testCases.Role_Creation')
+data.setCell(11, 3, 10830);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'roleCreation')
+data.setCell(12, 2, 'com.myiqai.testCases.Role_Creation')
+data.setCell(12, 3, 10726);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addNewUser')
+data.setCell(13, 2, 'com.myiqai.testCases.Add_users')
+data.setCell(13, 3, 10444);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addNewUser')
+data.setCell(14, 2, 'com.myiqai.testCases.Add_users')
+data.setCell(14, 3, 10442);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addNewUser')
+data.setCell(15, 2, 'com.myiqai.testCases.Add_users')
+data.setCell(15, 3, 10381);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'roleCreation')
+data.setCell(16, 2, 'com.myiqai.testCases.Role_Creation')
+data.setCell(16, 3, 9793);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'add_newUsers')
+data.setCell(17, 2, 'com.myiqai.testCases.Add_users')
+data.setCell(17, 3, 7333);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'rule_Mas')
+data.setCell(18, 2, 'com.myiqai.testCases.Rule_master')
+data.setCell(18, 3, 4325);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'add_org')
+data.setCell(19, 2, 'com.myiqai.testCases.Add_organisation')
+data.setCell(19, 3, 3391);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'role_creation')
+data.setCell(20, 2, 'com.myiqai.testCases.Role_Creation')
+data.setCell(20, 3, 1260);
+window.suiteTableData['RegressionTesting']= { tableData: data, tableDiv: 'times-div-RegressionTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-RegressionTesting">
+              </div> <!-- times-div-RegressionTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.myiqai.testCases.Role_Creation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">driverQuit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.myiqai.testCases.Rule_master</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">driverQuit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.myiqai.testCases.Add_users</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">driverQuit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.myiqai.testCases.Add_organisation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">driverQuit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myiqai.testCases.Add_users</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">add_newUsers</span>
+                <span class="method-start">3914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewUser(Test user, one, iqqiqi456@myiq.co)</span>
+                <span class="method-start">11964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewUser(Test user, two, testuser267@myiq.kkrr)</span>
+                <span class="method-start">22411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewUser(Test Three, three, testuserthree@myiq.rcbb)</span>
+                <span class="method-start">32795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43241 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myiqai.testCases.Add_organisation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43357 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">add_org</span>
+                <span class="method-start">45464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_organisation(www.iqsam12.com, My iq Sam12, ABC-123, Prince street, Leeds, UK, GB01123, www.updatesam123.com, Upda...)</span>
+                <span class="method-start">49431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_organisation(www.iqhari.com, My iq Hari, ABC-456, Prince street, chennai, India, GB01, www.updatehari123.com, Upd...)</span>
+                <span class="method-start">72619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_organisation(www.iqkavi12.com, My iq Kavi12, ABC-789, Prince street, mumbai, Germany, ZN023, www.updatekavi123.co...)</span>
+                <span class="method-start">95109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_organisation(www.iqmac.com, My iq Mac, ABC-123, Prince street, mumbai, Germany, ASD12, www.updatemac123.com, Upda...)</span>
+                <span class="method-start">117686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140186 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myiqai.testCases.Role_Creation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">140267 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">role_creation</span>
+                <span class="method-start">143853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreation(AP Clerk123, Organisation -Add, view, email and target,Manual upload and invoice view -processed, ex...)</span>
+                <span class="method-start">145175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreation(AR Clerk 123, User- Add, view,Manual upload and invoice view - approval alone)</span>
+                <span class="method-start">154970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreation(AP Manager, Invoice- View, add,assign and approval)</span>
+                <span class="method-start">166352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreation(AR Manager, View reports page)</span>
+                <span class="method-start">177287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreation(IR Clerk, Task reports and invoice view )</span>
+                <span class="method-start">188015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">198847 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myiqai.testCases.Rule_master</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">198962 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">rule_Mas</span>
+                <span class="method-start">202737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rule_master(RuleWithcountry, Vendor Country, =, Abkhazia, )</span>
+                <span class="method-start">207223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rule_master(RuleWithVendorName, Vendor Name, Ends with, , )</span>
+                <span class="method-start">237165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rule_master(RuleWithcountry_1, Vendor Country, =, Algeria, )</span>
+                <span class="method-start">265343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rule_master(RuleWithRetentionAmount, Retention Amount, =, , )</span>
+                <span class="method-start">304850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rule_master(, , , , )</span>
+                <span class="method-start">330204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">341896 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myiqai.base.Base_test</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">342018 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

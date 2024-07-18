@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 842.164 s <<< FAILURE! - in TestSuite
+transferownership(com.myiqai.testCases.Transfer_ownership)  Time elapsed: 6.839 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="bg-light-20 px-[34px] py-2 text-base text-white rounded-[8px] " title="...">Save</button> is not clickable at point (572, 462). Other element would receive the click: <li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz" tabindex="-1" role="option" name="orgName" aria-selected="false" data-value="707">...</li>
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d550d268625c393da28a62cd20b171c8
+	at com.myiqai.testCases.Transfer_ownership.transferownership(Transfer_ownership.java:17)
+
+exchangerate(com.myiqai.testCases.Exchange_Rate)  Time elapsed: 31.32 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='swal2-html-container'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a70a97892cc777246c976cc822eeef2
+*** Element info: {Using=xpath, value=(//div[@id='swal2-html-container'])[1]}
+	at com.myiqai.testCases.Exchange_Rate.exchangerate(Exchange_Rate.java:15)
+
+accuralAccounting(com.myiqai.testCases.Accural_Accounting)  Time elapsed: 75.121 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: (//input[@id='1'])[1] (tried for 50 second(s) with 500 milliseconds interval)
+	at com.myiqai.testCases.Accural_Accounting.accuralAccounting(Accural_Accounting.java:17)
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 459a754ce9e160bc35e26d9c8d33a617
+*** Element info: {Using=css selector, value=(//input[@id='1'])[1]}
+	at com.myiqai.testCases.Accural_Accounting.accuralAccounting(Accural_Accounting.java:17)
+

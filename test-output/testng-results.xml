@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="25" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T08:27:29Z" name="RegressionTesting" finished-at="2024-07-17T08:33:11Z" duration-ms="342110">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T08:27:29Z" name="Test" finished-at="2024-07-17T08:33:11Z" duration-ms="342110">
+      <class name="com.myiqai.base.Base_test">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.myiqai.base.Base_test@38089a5a]" started-at="2024-07-17T08:33:11Z" name="driverQuit" finished-at="2024-07-17T08:33:11Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- com.myiqai.base.Base_test -->
+      <class name="com.myiqai.testCases.Role_Creation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:29:50Z" name="setUp" finished-at="2024-07-17T08:29:53Z" duration-ms="3585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="role_creation()[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:29:53Z" name="role_creation" finished-at="2024-07-17T08:29:54Z" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- role_creation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:29:55Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-17T08:30:04Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="9793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AP Clerk123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Organisation -Add, view, email and target,Manual upload and invoice view -processed, exception, approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:30:04Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-17T08:30:16Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="11380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AR Clerk 123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User- Add, view,Manual upload and invoice view - approval alone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:30:16Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-17T08:30:27Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="10934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AP Manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invoice- View, add,assign and approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:30:27Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-17T08:30:37Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="10726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AR Manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[View reports page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:30:37Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-17T08:30:48Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="10830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IR Clerk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Task reports and invoice view ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Role_Creation@4b41dd5c]" started-at="2024-07-17T08:30:48Z" name="tearDown" finished-at="2024-07-17T08:30:48Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Role_Creation -->
+      <class name="com.myiqai.testCases.Rule_master">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:30:48Z" name="setUp" finished-at="2024-07-17T08:30:52Z" duration-ms="3775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rule_Mas()[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:30:52Z" name="rule_Mas" finished-at="2024-07-17T08:30:56Z" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_Mas -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:30:57Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-17T08:31:27Z" duration-ms="29940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithcountry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abkhazia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:31:27Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-17T08:31:55Z" duration-ms="28177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithVendorName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ends with]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:31:55Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-17T08:32:34Z" duration-ms="39505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithcountry_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:32:34Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-17T08:33:00Z" duration-ms="25350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithRetentionAmount]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Retention Amount]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:33:00Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-17T08:33:11Z" duration-ms="11690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Rule_master@3b96c42e]" started-at="2024-07-17T08:33:11Z" name="tearDown" finished-at="2024-07-17T08:33:11Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Rule_master -->
+      <class name="com.myiqai.testCases.Add_users">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Add_users@a3d9978]" started-at="2024-07-17T08:27:29Z" name="setUp" finished-at="2024-07-17T08:27:33Z" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add_newUsers()[pri:0, instance:com.myiqai.testCases.Add_users@a3d9978]" started-at="2024-07-17T08:27:33Z" name="add_newUsers" finished-at="2024-07-17T08:27:41Z" duration-ms="7333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_newUsers -->
+        <test-method signature="addNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_users@a3d9978]" started-at="2024-07-17T08:27:41Z" name="addNewUser" data-provider="adduserManagement" finished-at="2024-07-17T08:27:52Z" depends-on-methods="com.myiqai.testCases.Add_users.add_newUsers" duration-ms="10444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iqqiqi456@myiq.co]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="addNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_users@a3d9978]" started-at="2024-07-17T08:27:52Z" name="addNewUser" data-provider="adduserManagement" finished-at="2024-07-17T08:28:02Z" depends-on-methods="com.myiqai.testCases.Add_users.add_newUsers" duration-ms="10381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testuser267@myiq.kkrr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="addNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_users@a3d9978]" started-at="2024-07-17T08:28:02Z" name="addNewUser" data-provider="adduserManagement" finished-at="2024-07-17T08:28:13Z" depends-on-methods="com.myiqai.testCases.Add_users.add_newUsers" duration-ms="10442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testuserthree@myiq.rcbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Add_users@a3d9978]" started-at="2024-07-17T08:28:13Z" name="tearDown" finished-at="2024-07-17T08:28:13Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Add_users -->
+      <class name="com.myiqai.testCases.Add_organisation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:28:13Z" name="setUp" finished-at="2024-07-17T08:28:15Z" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add_org()[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:28:15Z" name="add_org" finished-at="2024-07-17T08:28:18Z" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_org -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:28:19Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-17T08:28:42Z" duration-ms="23185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqsam12.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Sam12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, Leeds, UK]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GB01123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatesam123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Update123 Sam pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UP-12344]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[T-nagar, Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:28:42Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-17T08:29:04Z" duration-ms="22486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqhari.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, chennai, India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GB01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatehari123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Update123 Hari pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UPH-1234]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[KK -nagar, chennai.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:29:04Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-17T08:29:27Z" duration-ms="22573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqkavi12.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Kavi12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, mumbai, Germany]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ZN023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatekavi123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Update123 Kavi pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UPK-1234]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[KKt-nagar, chennai.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:29:27Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-17T08:29:50Z" duration-ms="22498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqmac.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, mumbai, Germany]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ASD12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatemac123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Updatemac123 pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UPM-12314]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mac, chennai-13423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Add_organisation@61544ae6]" started-at="2024-07-17T08:29:50Z" name="tearDown" finished-at="2024-07-17T08:29:50Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Add_organisation -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionTesting -->
+</testng-results>

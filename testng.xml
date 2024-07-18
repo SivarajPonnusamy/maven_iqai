@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.myiqai.base.Base_test" />
+			<class name="com.myiqai.testCases.Add_users" />
+			<class name="com.myiqai.testCases.Add_organisation" />
+			<class name="com.myiqai.testCases.Role_Creation" />
+			<class name="com.myiqai.testCases.Rule_master" />
+			<class name="com.myiqai.testCases.Manual_uploading" />
+			<class name="com.myiqai.testCases.Email_config" />
+			<class name="com.myiqai.testCases.Target_config" />
+			<class name="com.myiqai.testCases.Profile_page" />
+			<class name="com.myiqai.testCases.Id_Configuration" />
+			<class name="com.myiqai.testCases.Email_template" />
+			<class name="com.myiqai.testCases.Folder_config" />
+			<class name="com.myiqai.testCases.Priority_Configuration" />
+			<class name="com.myiqai.testCases.Invoice_List" />
+			<class name="com.myiqai.testCases.Document_typeSetup" />
+			<class name="com.myiqai.testCases.Transfer_ownership" />
+			<class name="com.myiqai.testCases.Remove_Demo_data" />
+			<class name="com.myiqai.testCases.Accrual_AutomationConfig" />
+			<class name="com.myiqai.testCases.Month_Closing" />
+			<class name="com.myiqai.testCases.Task_Id" />
+			<class name="com.myiqai.testCases.Exchange_Rate" />
+			<class name="com.myiqai.testCases.Accural_Accounting" />
+			<!-- class name="com.myiqai.testCases.User_Update" / -->
+
+
+
+
+
+
+
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

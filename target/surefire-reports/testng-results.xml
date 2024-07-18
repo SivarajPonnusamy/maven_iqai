@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="58" passed="34" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T04:34:31Z" name="RegressionTesting" finished-at="2024-07-18T04:48:32Z" duration-ms="840640">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T04:34:31Z" name="Test" finished-at="2024-07-18T04:48:32Z" duration-ms="840640">
+      <class name="com.myiqai.testCases.Month_Closing">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Month_Closing@36916eb0]" started-at="2024-07-18T04:45:54Z" name="setUp" finished-at="2024-07-18T04:45:56Z" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="monthclosing()[pri:0, instance:com.myiqai.testCases.Month_Closing@36916eb0]" started-at="2024-07-18T04:45:56Z" name="monthclosing" finished-at="2024-07-18T04:46:20Z" duration-ms="24309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthclosing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Month_Closing@36916eb0]" started-at="2024-07-18T04:46:20Z" name="tearDown" finished-at="2024-07-18T04:46:20Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Month_Closing -->
+      <class name="com.myiqai.testCases.Folder_config">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Folder_config@957e06]" started-at="2024-07-18T04:42:37Z" name="setUp" finished-at="2024-07-18T04:42:39Z" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="folderConfig()[pri:0, instance:com.myiqai.testCases.Folder_config@957e06]" started-at="2024-07-18T04:42:39Z" name="folderConfig" finished-at="2024-07-18T04:43:19Z" duration-ms="39912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- folderConfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Folder_config@957e06]" started-at="2024-07-18T04:43:19Z" name="tearDown" finished-at="2024-07-18T04:43:19Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Folder_config -->
+      <class name="com.myiqai.testCases.Role_Creation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:00Z" name="setUp" finished-at="2024-07-18T04:37:02Z" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="role_creation()[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:02Z" name="role_creation" finished-at="2024-07-18T04:37:04Z" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- role_creation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:04Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-18T04:37:15Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="11562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AP Clerk123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Organisation -Add, view, email and target,Manual upload and invoice view -processed, exception, approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:15Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-18T04:37:27Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="11435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AR Clerk 123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User- Add, view,Manual upload and invoice view - approval alone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:27Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-18T04:37:38Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="11030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AP Manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invoice- View, add,assign and approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:38Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-18T04:37:48Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="10696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AR Manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[View reports page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method signature="roleCreation(java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:48Z" name="roleCreation" data-provider="rolename" finished-at="2024-07-18T04:37:59Z" depends-on-methods="com.myiqai.testCases.Role_Creation.role_creation" duration-ms="10851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IR Clerk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Task reports and invoice view ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Role_Creation@ffaa6af]" started-at="2024-07-18T04:37:59Z" name="tearDown" finished-at="2024-07-18T04:37:59Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Role_Creation -->
+      <class name="com.myiqai.testCases.Target_config">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Target_config@3e11f9e9]" started-at="2024-07-18T04:41:34Z" name="setUp" finished-at="2024-07-18T04:41:36Z" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="targetconfig()[pri:0, instance:com.myiqai.testCases.Target_config@3e11f9e9]" started-at="2024-07-18T04:41:36Z" name="targetconfig" finished-at="2024-07-18T04:41:52Z" duration-ms="15196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- targetconfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Target_config@3e11f9e9]" started-at="2024-07-18T04:41:52Z" name="tearDown" finished-at="2024-07-18T04:41:52Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Target_config -->
+      <class name="com.myiqai.testCases.Remove_Demo_data">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Remove_Demo_data@550dbc7a]" started-at="2024-07-18T04:44:53Z" name="setUp" finished-at="2024-07-18T04:44:56Z" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeDemoData()[pri:0, instance:com.myiqai.testCases.Remove_Demo_data@550dbc7a]" started-at="2024-07-18T04:44:56Z" name="removeDemoData" finished-at="2024-07-18T04:45:07Z" duration-ms="11401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDemoData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Remove_Demo_data@550dbc7a]" started-at="2024-07-18T04:45:07Z" name="tearDown" finished-at="2024-07-18T04:45:07Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Remove_Demo_data -->
+      <class name="com.myiqai.testCases.Add_users">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Add_users@f0da945]" started-at="2024-07-18T04:34:31Z" name="setUp" finished-at="2024-07-18T04:34:37Z" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add_newUsers()[pri:0, instance:com.myiqai.testCases.Add_users@f0da945]" started-at="2024-07-18T04:34:37Z" name="add_newUsers" finished-at="2024-07-18T04:34:44Z" duration-ms="7278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_newUsers -->
+        <test-method signature="addNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_users@f0da945]" started-at="2024-07-18T04:34:44Z" name="addNewUser" data-provider="adduserManagement" finished-at="2024-07-18T04:34:55Z" depends-on-methods="com.myiqai.testCases.Add_users.add_newUsers" duration-ms="10337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iqqiqi456@myiq.co]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="addNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_users@f0da945]" started-at="2024-07-18T04:34:55Z" name="addNewUser" data-provider="adduserManagement" finished-at="2024-07-18T04:35:05Z" depends-on-methods="com.myiqai.testCases.Add_users.add_newUsers" duration-ms="10264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testuser267@myiq.kkrr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="addNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_users@f0da945]" started-at="2024-07-18T04:35:05Z" name="addNewUser" data-provider="adduserManagement" finished-at="2024-07-18T04:35:15Z" depends-on-methods="com.myiqai.testCases.Add_users.add_newUsers" duration-ms="10355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testuserthree@myiq.rcbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Add_users@f0da945]" started-at="2024-07-18T04:35:15Z" name="tearDown" finished-at="2024-07-18T04:35:15Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Add_users -->
+      <class name="com.myiqai.testCases.Add_organisation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:35:15Z" name="setUp" finished-at="2024-07-18T04:35:24Z" duration-ms="8334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add_org()[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:35:24Z" name="add_org" finished-at="2024-07-18T04:35:28Z" duration-ms="4291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_org -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:35:29Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-18T04:35:52Z" duration-ms="23354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqsam12.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Sam12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, Leeds, UK]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GB01123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatesam123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Update123 Sam pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UP-12344]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[T-nagar, Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:35:52Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-18T04:36:15Z" duration-ms="22522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqhari.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, chennai, India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GB01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatehari123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Update123 Hari pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UPH-1234]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[KK -nagar, chennai.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:36:15Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-18T04:36:37Z" duration-ms="22560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqkavi12.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Kavi12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, mumbai, Germany]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ZN023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatekavi123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Update123 Kavi pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UPK-1234]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[KKt-nagar, chennai.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method signature="add_organisation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:36:37Z" name="add_organisation" data-provider="addorganisation" finished-at="2024-07-18T04:37:00Z" duration-ms="22526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.iqmac.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My iq Mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC-123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prince street, mumbai, Germany]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ASD12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.updatemac123.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Updatemac123 pvt ltd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UPM-12314]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mac, chennai-13423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_organisation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Add_organisation@4803b726]" started-at="2024-07-18T04:37:00Z" name="tearDown" finished-at="2024-07-18T04:37:00Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Add_organisation -->
+      <class name="com.myiqai.base.Base_test">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.myiqai.base.Base_test@27462a88]" started-at="2024-07-18T04:48:32Z" name="driverQuit" finished-at="2024-07-18T04:48:32Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- com.myiqai.base.Base_test -->
+      <class name="com.myiqai.testCases.Priority_Configuration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Priority_Configuration@32502377]" started-at="2024-07-18T04:43:19Z" name="setUp" finished-at="2024-07-18T04:43:21Z" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="priorityConfig()[pri:0, instance:com.myiqai.testCases.Priority_Configuration@32502377]" started-at="2024-07-18T04:43:21Z" name="priorityConfig" finished-at="2024-07-18T04:43:33Z" duration-ms="11479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priorityConfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Priority_Configuration@32502377]" started-at="2024-07-18T04:43:33Z" name="tearDown" finished-at="2024-07-18T04:43:33Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Priority_Configuration -->
+      <class name="com.myiqai.testCases.Transfer_ownership">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Transfer_ownership@66f57048]" started-at="2024-07-18T04:44:44Z" name="setUp" finished-at="2024-07-18T04:44:46Z" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="transferownership()[pri:0, instance:com.myiqai.testCases.Transfer_ownership@66f57048]" started-at="2024-07-18T04:44:46Z" name="transferownership" finished-at="2024-07-18T04:44:53Z" duration-ms="6825" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="bg-light-20 px-[34px] py-2 text-base text-white rounded-[8px] " title="...">Save</button> is not clickable at point (572, 462). Other element would receive the click: <li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz" tabindex="-1" role="option" name="orgName" aria-selected="false" data-value="707">...</li>
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d550d268625c393da28a62cd20b171c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="bg-light-20 px-[34px] py-2 text-base text-white rounded-[8px] " title="...">Save</button> is not clickable at point (572, 462). Other element would receive the click: <li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz" tabindex="-1" role="option" name="orgName" aria-selected="false" data-value="707">...</li>
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d550d268625c393da28a62cd20b171c8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+at com.myiqai.pageObjects.TransferOwnership.savebutton(TransferOwnership.java:79)
+at com.myiqai.testCases.Transfer_ownership.transferownership(Transfer_ownership.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferownership -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Transfer_ownership@66f57048]" started-at="2024-07-18T04:44:53Z" name="tearDown" finished-at="2024-07-18T04:44:53Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Transfer_ownership -->
+      <class name="com.myiqai.testCases.Email_config">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Email_config@6404f418]" started-at="2024-07-18T04:40:51Z" name="setUp" finished-at="2024-07-18T04:40:54Z" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emailConfig()[pri:0, instance:com.myiqai.testCases.Email_config@6404f418]" started-at="2024-07-18T04:40:54Z" name="emailConfig" finished-at="2024-07-18T04:41:34Z" duration-ms="40436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailConfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Email_config@6404f418]" started-at="2024-07-18T04:41:34Z" name="tearDown" finished-at="2024-07-18T04:41:34Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Email_config -->
+      <class name="com.myiqai.testCases.Manual_uploading">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Manual_uploading@316bcf94]" started-at="2024-07-18T04:40:20Z" name="setUp" finished-at="2024-07-18T04:40:23Z" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="manual_Uploading()[pri:0, instance:com.myiqai.testCases.Manual_uploading@316bcf94]" started-at="2024-07-18T04:40:23Z" name="manual_Uploading" finished-at="2024-07-18T04:40:51Z" duration-ms="28626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manual_Uploading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Manual_uploading@316bcf94]" started-at="2024-07-18T04:40:51Z" name="tearDown" finished-at="2024-07-18T04:40:51Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Manual_uploading -->
+      <class name="com.myiqai.testCases.Document_typeSetup">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Document_typeSetup@4dbb42b7]" started-at="2024-07-18T04:44:24Z" name="setUp" finished-at="2024-07-18T04:44:27Z" duration-ms="2535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="docsetUP()[pri:0, instance:com.myiqai.testCases.Document_typeSetup@4dbb42b7]" started-at="2024-07-18T04:44:27Z" name="docsetUP" finished-at="2024-07-18T04:44:44Z" duration-ms="17486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- docsetUP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Document_typeSetup@4dbb42b7]" started-at="2024-07-18T04:44:44Z" name="tearDown" finished-at="2024-07-18T04:44:44Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Document_typeSetup -->
+      <class name="com.myiqai.testCases.Email_template">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Email_template@31fa1761]" started-at="2024-07-18T04:42:17Z" name="setUp" finished-at="2024-07-18T04:42:19Z" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emailTemplate()[pri:0, instance:com.myiqai.testCases.Email_template@31fa1761]" started-at="2024-07-18T04:42:19Z" name="emailTemplate" finished-at="2024-07-18T04:42:37Z" duration-ms="17245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailTemplate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Email_template@31fa1761]" started-at="2024-07-18T04:42:37Z" name="tearDown" finished-at="2024-07-18T04:42:37Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Email_template -->
+      <class name="com.myiqai.testCases.Accural_Accounting">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Accural_Accounting@23c30a20]" started-at="2024-07-18T04:47:14Z" name="setUp" finished-at="2024-07-18T04:47:17Z" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accuralAccounting()[pri:0, instance:com.myiqai.testCases.Accural_Accounting@23c30a20]" started-at="2024-07-18T04:47:17Z" name="accuralAccounting" finished-at="2024-07-18T04:48:32Z" duration-ms="75118" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: (//input[@id='1'])[1] (tried for 50 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: (//input[@id='1'])[1] (tried for 50 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.myiqai.pageObjects.AccrualAccounting.accrualdate(AccrualAccounting.java:118)
+at com.myiqai.testCases.Accural_Accounting.accuralAccounting(Accural_Accounting.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 459a754ce9e160bc35e26d9c8d33a617
+*** Element info: {Using=css selector, value=(//input[@id='1'])[1]}
+at jdk.internal.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accuralAccounting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Accural_Accounting@23c30a20]" started-at="2024-07-18T04:48:32Z" name="tearDown" finished-at="2024-07-18T04:48:32Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Accural_Accounting -->
+      <class name="com.myiqai.testCases.Rule_master">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:37:59Z" name="setUp" finished-at="2024-07-18T04:38:02Z" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rule_Mas()[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:38:02Z" name="rule_Mas" finished-at="2024-07-18T04:38:06Z" duration-ms="4385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_Mas -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:38:06Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-18T04:38:37Z" duration-ms="30490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithcountry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abkhazia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:38:37Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-18T04:39:04Z" duration-ms="27744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithVendorName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ends with]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:39:04Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-18T04:39:44Z" duration-ms="39251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithcountry_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:39:44Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-18T04:40:08Z" duration-ms="24781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RuleWithRetentionAmount]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Retention Amount]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method signature="rule_master(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:40:08Z" name="rule_master" data-provider="rulemaster" finished-at="2024-07-18T04:40:20Z" duration-ms="11617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rule_master -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Rule_master@53ce1329]" started-at="2024-07-18T04:40:20Z" name="tearDown" finished-at="2024-07-18T04:40:20Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Rule_master -->
+      <class name="com.myiqai.testCases.Accrual_AutomationConfig">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Accrual_AutomationConfig@21282ed8]" started-at="2024-07-18T04:45:07Z" name="setUp" finished-at="2024-07-18T04:45:10Z" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accrualautomationConfig()[pri:0, instance:com.myiqai.testCases.Accrual_AutomationConfig@21282ed8]" started-at="2024-07-18T04:45:10Z" name="accrualautomationConfig" finished-at="2024-07-18T04:45:54Z" duration-ms="43951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accrualautomationConfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Accrual_AutomationConfig@21282ed8]" started-at="2024-07-18T04:45:54Z" name="tearDown" finished-at="2024-07-18T04:45:54Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Accrual_AutomationConfig -->
+      <class name="com.myiqai.testCases.Id_Configuration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Id_Configuration@729d991e]" started-at="2024-07-18T04:41:52Z" name="setUp" finished-at="2024-07-18T04:41:54Z" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="idConfig()[pri:0, instance:com.myiqai.testCases.Id_Configuration@729d991e]" started-at="2024-07-18T04:41:54Z" name="idConfig" finished-at="2024-07-18T04:42:17Z" duration-ms="23051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idConfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Id_Configuration@729d991e]" started-at="2024-07-18T04:42:17Z" name="tearDown" finished-at="2024-07-18T04:42:17Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Id_Configuration -->
+      <class name="com.myiqai.testCases.Task_Id">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Task_Id@7bab3f1a]" started-at="2024-07-18T04:46:21Z" name="setUp" finished-at="2024-07-18T04:46:23Z" duration-ms="2279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="taskId()[pri:0, instance:com.myiqai.testCases.Task_Id@7bab3f1a]" started-at="2024-07-18T04:46:23Z" name="taskId" finished-at="2024-07-18T04:46:41Z" duration-ms="17866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Task_Id@7bab3f1a]" started-at="2024-07-18T04:46:41Z" name="tearDown" finished-at="2024-07-18T04:46:41Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Task_Id -->
+      <class name="com.myiqai.testCases.Invoice_List">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Invoice_List@2c1b194a]" started-at="2024-07-18T04:43:33Z" name="setUp" finished-at="2024-07-18T04:43:35Z" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invoicelist()[pri:0, instance:com.myiqai.testCases.Invoice_List@2c1b194a]" started-at="2024-07-18T04:43:35Z" name="Invoicelist" finished-at="2024-07-18T04:44:24Z" duration-ms="49236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoicelist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Invoice_List@2c1b194a]" started-at="2024-07-18T04:44:24Z" name="tearDown" finished-at="2024-07-18T04:44:24Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Invoice_List -->
+      <class name="com.myiqai.testCases.Exchange_Rate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myiqai.testCases.Exchange_Rate@437da279]" started-at="2024-07-18T04:46:41Z" name="setUp" finished-at="2024-07-18T04:46:43Z" duration-ms="2230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="exchangerate()[pri:0, instance:com.myiqai.testCases.Exchange_Rate@437da279]" started-at="2024-07-18T04:46:43Z" name="exchangerate" finished-at="2024-07-18T04:47:14Z" duration-ms="31318" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='swal2-html-container'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a70a97892cc777246c976cc822eeef2
+*** Element info: {Using=xpath, value=(//div[@id='swal2-html-container'])[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='swal2-html-container'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sivarajs-MacBook-Air.local', ip: 'fe80:0:0:0:fd:401d:1be:c8a7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/dt/60xjg_xj33b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a70a97892cc777246c976cc822eeef2
+*** Element info: {Using=xpath, value=(//div[@id='swal2-html-container'])[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.myiqai.pageObjects.ExchangeRate.addvendorCurrency(ExchangeRate.java:97)
+at com.myiqai.testCases.Exchange_Rate.exchangerate(Exchange_Rate.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exchangerate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myiqai.testCases.Exchange_Rate@437da279]" started-at="2024-07-18T04:47:14Z" name="tearDown" finished-at="2024-07-18T04:47:14Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myiqai.testCases.Exchange_Rate -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionTesting -->
+</testng-results>

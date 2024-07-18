@@ -1,0 +1,2 @@
+iQuantM - Build # 7 - Successful:
+Check console output at http://localhost:8080/job/iQuantM/7/ to view the results.
