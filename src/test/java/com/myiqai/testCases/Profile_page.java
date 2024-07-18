@@ -16,7 +16,7 @@ public class Profile_page extends Base_test{
 	
 	Profile prof;
 	
-	
+	@Test
 	public void settingsProfile() {
 	prof = new Profile(driver);
 	prof.adminSettings();
