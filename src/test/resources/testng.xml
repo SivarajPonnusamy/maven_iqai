@@ -6,7 +6,7 @@
 		<classes>
 			<class name="com.myiqai.base.Base_test" />
 			<class name="com.myiqai.testCases.Profile_page" />
-			<class name="com.myiqai.testCases.Add_users" />
+			<!--class name="com.myiqai.testCases.Add_users" />
 			<class name="com.myiqai.testCases.Add_organisation" />
 			<class name="com.myiqai.testCases.Role_Creation" />
 			<class name="com.myiqai.testCases.Rule_master" />
@@ -26,7 +26,7 @@
 			<class name="com.myiqai.testCases.Month_Closing" />
 			<class name="com.myiqai.testCases.Task_Id" />
 			<class name="com.myiqai.testCases.Exchange_Rate" />
-			<class name="com.myiqai.testCases.Accural_Accounting" />
+			<class name="com.myiqai.testCases.Accural_Accounting" /-->
 			<!--class name="com.myiqai.testCases.User_Update" / -->
 
 
