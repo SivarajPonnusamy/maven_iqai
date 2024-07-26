@@ -4,6 +4,22 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.myiqai.testCases.Add_organisation">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="add_organisation" invocation-numbers="2 3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myiqai.testCases.Add_organisation -->
+      <class name="com.myiqai.testCases.Invoice_List">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="Invoicelist"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myiqai.testCases.Invoice_List -->
       <class name="com.myiqai.testCases.Transfer_ownership">
         <methods>
           <include name="driverQuit"/>
@@ -20,14 +36,48 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.myiqai.testCases.Accural_Accounting -->
-      <class name="com.myiqai.testCases.Exchange_Rate">
+      <class name="com.myiqai.testCases.Accrual_AutomationConfig">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="accrualautomationConfig"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myiqai.testCases.Accrual_AutomationConfig -->
+      <class name="com.myiqai.testCases.Email_config">
+        <methods>
+          <include name="emailConfig"/>
+          <include name="driverQuit"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myiqai.testCases.Email_config -->
+      <class name="com.myiqai.testCases.Add_users">
         <methods>
           <include name="driverQuit"/>
           <include name="setUp"/>
-          <include name="exchangerate"/>
+          <include name="add_newUsers"/>
+          <include name="addNewUser" invocation-numbers="2"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.myiqai.testCases.Exchange_Rate -->
+      </class> <!-- com.myiqai.testCases.Add_users -->
+      <class name="com.myiqai.testCases.Role_Creation">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="roleCreation" invocation-numbers="2 3 4"/>
+          <include name="setUp"/>
+          <include name="role_creation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myiqai.testCases.Role_Creation -->
+      <class name="com.myiqai.testCases.Month_Closing">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setUp"/>
+          <include name="monthclosing"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myiqai.testCases.Month_Closing -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [RegressionTesting] -->
