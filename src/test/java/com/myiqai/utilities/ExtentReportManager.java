@@ -7,6 +7,7 @@ import org.testng.TestListenerAdapter;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -40,19 +41,22 @@ public class ExtentReportManager implements ITestListener {
 
 	
 	public void onTestSuccess(ITestResult result) {
-		test=extent.createTest(result.getName());
+		test=extent.createTest(result.getName());// create new entry in the report
+		test.log(Status.PASS, "test case Passed is : "+result.getName());// update status pass/fail/skipped
 		
 	}
 
 	
 	public void onTestFailure(ITestResult result) {
-		
-		
-	}
+		test=extent.createTest(result.getName());
+		test.log(Status.FAIL,"Test case failed :"+result.getName());
+		test.log(Status.FAIL,"Test case failed cause is :"+result.getThrowable());
+		}
 
 	
 	public void onTestSkipped(ITestResult result) {
-		
+		test=extent.createTest(result.getName());
+		test.log(Status.SKIP, "Test case skipped :"+result.getName());
 		
 	}
 
@@ -64,7 +68,7 @@ public class ExtentReportManager implements ITestListener {
 
 	
 	public void onFinish(ITestContext context) {
-		
+		extent.flush();
 		
 	}
 	
